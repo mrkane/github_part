@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="docs/favicon.ico">
+    <link rel="icon" href="../../favicon.ico">
 
     <title>Partageons</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,8 +46,8 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Accueil</a></li>
-                <li class="active"><a href="a_propos.html">A propos</a></li>
-                <li><a href="contact.html">Contactez-nous</a></li>
+                <li><a href="a_propos.html">A propos</a></li>
+                <li class="active"><a href="contact.html">Contactez-nous</a></li>
 				<li><a href="blog.html">Blog</a></li>
               </ul>
 				<form class="navbar-form navbar-right">
@@ -62,7 +62,7 @@
     </div>
 
 
-	<!-- Carousel
+    <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -141,8 +141,8 @@
             <div class="list-group">
                 <a href="index.html" class="list-group-item">Accueil</a>
 				<a href="blog.html" class="list-group-item ">Blog</a>
-				<a href="contact.html" class="list-group-item">Contactez-nous</a>
-				<a href="a_propos.html" class="list-group-item active">A propos</a>
+				<a href="contact.html" class="list-group-item active">Contactez-nous</a>
+				<a href="a_propos.html" class="list-group-item ">A propos</a>
             </div>
         </div><!--/.sidebar-offcanvas-->
 
@@ -154,21 +154,41 @@
                     <thead>
                         <tr>
                             <article>
-								<h2>A propos de " Partageons "</h2>
-								<p><strong>"Partageons"</strong> est une action citoyenne destinée à redonner un peu d'espoir aux oubliés de la vie.</p>
-								<p><strong>" Partageons "</strong> n’est pas une association, puisque je ne sollicite aucune subvention .
-			Néanmoins, comment rester inactif devant tant de détresse et de misère sociale. En effet, Dakar et sa région compte plus de 3 millions d’habitants 
-			et la plus grande des insécurités reste l’insécurité alimentaire.
-			Dakar et ses nombreux hôtels pourraient, avec une volonté certaine, mieux répartir le surplus de nourriture, l’excédent quotidien. 
-			C’ est pourquoi, je sollicite avec une logistique bien encadrée tous les hôtels désireux de participer à ce projet.
-			La faim ne doit pas être une fatalité. 
-			Soyons solidaire, pour ainsi contribuer à redonner un peu d’espoir.</p>
+								<h2>N'hésiter pas à nous contacter</h2>
+								<p>Vous pouvez nous contacter en remplissant le formulaire suivant. Vous pouvez aussi nous joindre par téléphone oubien par mail.</p>
+								
 							</article>
                         </tr>
                         
                     </thead>
                 </table>
             </div>
+			<form>
+			<h2>Formulaire de contact</h2> <br />
+			
+			<div class="form-group">
+				<label for="nom">Nom:</label>
+				<input type="text" class="form-control" id="nom">
+			</div>
+			<div class="form-group">
+			<label for="prenom">Prenom:</label>
+				<input type="text" class="form-control" id="prenom">
+			</div>
+			<div class="form-group">
+			<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email">
+			</div>
+			<div>
+				<input type="radio" name="Renseignement" value="renseignement"> <label> Renseignement </label><br />
+				<input type="radio" name="Partenariat" value="partenariat"> <label>Partenariat </label><br />
+			</div>
+			<div class="form-group">
+				<label for="comment">Comment:</label>
+				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Valider</button>
+			<button type="submit" class="btn btn-primary">Annuler</button>
+			</form>
         </div><!--/.col-xs-12.col-sm-9-->
 		
 		<div class="col-md-1" style="margin-top:20px">
@@ -188,14 +208,15 @@
         <a href="#"><img src="saly.jpg" width="75" height="75" alt="" class="gal" /></a>
 		<a href="#"><img src="salyjo.jpg" width="75" height="75" alt="" class="gal" /></a>
 		<a href="#"><img src="saly2.jpg" width="75" height="75" alt="" class="gal" /></a>
+		<a href="#"><img src="saly3.jpg" width="75" height="75" alt="" class="gal" /></a>
 		<a href="#"><img src="guy.jpg" width="75" height="75" alt="" class="gal" /></a>
 		<a href="#"><img src="diawara.jpg" width="75" height="75" alt="" class="gal" /></a>
 		<a href="#"><img src="cantona.jpg" width="75" height="75" alt="" class="gal" /></a>
 		<a href="#"><img src="accessoire.jpg" width="75" height="75" alt="" class="gal" /></a>
 	  </div>
       <div class="col-md-4">
-        <h2>A propos de Partageons</h2>
-        <p><strong>" Partageons "</strong> n’est pas une association, puisque je ne sollicite aucune subvention .
+        <h2><span>A propos de Partageons</span></h2>
+        <p><strong>Partageons</strong> n’est pas une association, puisque je ne sollicite aucune subvention .
 			Néanmoins, comment rester inactif devant tant de détresse et de misère sociale. En effet, Dakar et sa région compte plus de 3 millions d’habitants 
 			et la plus grande des insécurités reste l’insécurité alimentaire.
 			Dakar et ses nombreux hôtels pourraient, avec une volonté certaine, mieux répartir le surplus de nourriture, l’excédent quotidien. 
@@ -223,13 +244,13 @@
     </div><!-- /.container -->
 
 
-     <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="docs/assets/js/docs.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
